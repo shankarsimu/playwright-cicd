@@ -1,13 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
  
 export default defineConfig({
-  //added from google result
-  timeout: isCi ? 60000 : 30000, // Give CI double the time (60 seconds)
-  expect: {
-    timeout: isCi ? 10000 : 5000,
-  },
-  workers: isCi ? 2 : undefined,   // Restrict workers on CI to prevent thrashing
-  retries: isCi ? 2 : 0, 
+  
   
   testDir: './tests',
   /* Run tests in files in parallel */
