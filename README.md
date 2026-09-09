@@ -80,4 +80,7 @@ This README is **all‑in‑one**: it explains the workflow, shows the YAML conf
 
 Would you like me to also add **status badges** (e.g., CI build status, Node.js version, Playwright version) at the top so your repo looks more professional?
 
-#Happy testing 🎉
+
+---
+```
+## Happy testing 🎉
