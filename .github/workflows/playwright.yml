@@ -26,9 +26,10 @@ jobs:
         run: npm ci
 
       - name: Clean apt cache
-        run:  sudo apt-get clean
-              sudo rm -rf /var/lib/apt/lists/*
-              sudo apt-get update  
+        run: |
+            sudo apt-get clean
+            sudo rm -rf /var/lib/apt/lists/*
+            sudo apt-get update  
       # Install Playwright browsers + system deps
       - name: Install Playwright browsers
         # run: npx playwright install --with-deps
