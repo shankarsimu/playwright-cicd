@@ -1,0 +1,57 @@
+[
+ {
+  "time": 1790096865957,
+  "duration": 55996.026000000005,
+  "passed": 5,
+  "failed": 6,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 11,
+  "tests": {
+   "chromium::tests/example.spec.ts::has title": [
+    "f",
+    30120
+   ],
+   "chromium::tests/example.spec.ts::get started link": [
+    "f",
+    30120
+   ],
+   "chromium::tests/uielements.spec.ts::Form Tests › checkbox": [
+    "p",
+    9363
+   ],
+   "chromium::tests/uielements.spec.ts::Form Tests › radio": [
+    "p",
+    9293
+   ],
+   "chromium::tests/uielements.spec.ts::internet app": [
+    "f",
+    35036
+   ],
+   "chromium::tests/uielements.spec.ts::visual regression - homepage": [
+    "f",
+    35051
+   ],
+   "chromium::tests/uielements.spec.ts::visual consistency across browsers": [
+    "f",
+    9262
+   ],
+   "chromium::tests/uielements.spec.ts::Challenging DOM": [
+    "p",
+    23927
+   ],
+   "chromium::tests/uielements.spec.ts::successfulOrderPlacement": [
+    "p",
+    4216
+   ],
+   "chromium::tests/uielements.spec.ts::rowSelection": [
+    "f",
+    30100
+   ],
+   "chromium::tests/uielements.spec.ts::Creating browser context": [
+    "p",
+    14078
+   ]
+  }
+ }
+]
